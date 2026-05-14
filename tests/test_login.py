@@ -1,17 +1,17 @@
 import pytest
 
-from login_page import LoginPage
-from dashboard_page import DashboardPage
+from pages.login_page import LoginPage
+from pages.dashboard_page import DashboardPage
 
-from csv_reader import get_login_data
-from config import BASE_URL
+from utilities.csv_reader import get_login_data
+from config.config import BASE_URL
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 
 
-test_data = get_login_data("login_data.csv")
+test_data = get_login_data("../data/login_data.csv")
 
 
 @pytest.mark.parametrize("username,password,expected", test_data)
