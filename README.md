@@ -33,13 +33,13 @@ The framework follows the Page Object Model (POM) design pattern for better scal
 
 Tech Stack        
 
-Technology                                            Purpose
-Python                                                Programming Language
-Selenium WebDriver                                    Browser Automation
-Pytest                                                Test Execution Framework
-Allure Reports                                        Reporting & Visualization
-PyCharm                                               IDE
-Git & GitHub                                          Version Control
+Technology                                            Purpose,
+Python for                                              Programming Language,
+Selenium WebDriver for                                   Browser Automation,
+Pytest for                                                Test Execution Framework,
+Allure Reports for                                      Reporting & Visualization,
+PyCharm for                                              IDE,
+Git & GitHub for                                         Version Control
 
 
 
